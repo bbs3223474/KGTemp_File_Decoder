@@ -6,8 +6,11 @@ Due to the Kugou Music Player (a music player for Chinese users) uses .kgtemp as
 
 注意：
 1、本程序使用tcc编译，仅需要下载tcc然后执行CompileTCC.bat即可完成编译，输出exe位于项目tcc目录下。（你可能需要对该bat进行适当修改以完成编译）
+
 2、本程序源代码参考自：http://www.cnblogs.com/KMBlog/p/6877752.html ，由huaying1988.com修改和首次编译，由bbs3223474（本人）汉化，感谢作者的大力支持！
+
 3、如果你想使用英文版本，请编译项目下的decodeKg_ENG.c
+
 4、本程序仅为临时解密一个.flac文件而编译，它本身不具备判断.kgtemp对应的音频格式的能力，因此你需要自己判断源文件到底是.mp3还是.flac或者是其他的格式，然后对它的后缀名进行修改。若有能力编写判断代码，欢迎各位提交自己的Pull request。
 
 NOTICE:
