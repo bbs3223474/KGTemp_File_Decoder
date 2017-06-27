@@ -1,0 +1,1 @@
+tcc\tcc.exe decodeKg.c -o decodeKg.exe
